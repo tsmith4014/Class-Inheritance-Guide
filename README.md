@@ -25,14 +25,16 @@ cd Class-Inheritance-guide
 ```
 
 ## Project Structure
-
+Freezer
+from ice_cream import IceCream
+from ice_cream import FlavoredIceCream
 The project contains several key files:
 
 - `freezer.py`: Defines the `Freezer` class that manages collections of ice creams.
 - `ice_cream.py`: Includes the `IceCream` base class and the `FlavoredIceCream` subclass.
-- `ice_cream_dream.py`: Utilizes the `Freezer` and ice cream classes to simulate a full ice cream management system.
-- `test_ice_cream.py`: Contains unit tests for the ice cream classes and their interactions within the freezer.
-- `simple_test.py`: (Assumed file) Demonstrates basic functionalities of the classes in a simplified manner.
+- `ice_cream_dream.py`: Utilizes the `Freezer`, `IceCream`, and `FlavoredIceCream` classes to simulate a full ice cream management system.
+- `test_ice_cream.py`: Contains unit tests for the ice cream classes and their interactions within the freezer.  This is a unittest and may require a pip install.
+- `simple_test.py`: (Start here) Demonstrates basic functionalities of the classes in a simplified manner.
 
 ## Running Simulations and Tests
 
